@@ -1,51 +1,48 @@
 @media(max-width:800px) {
+    p{
+        visibility: hidden
+    }
     #typing {
         position: absolute;
-        left: 30%;
-        top: 10%;
+        left: 10%;
+        top: 30%;
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 15px;
-    }
-    
-    #driven{
-        font-size: 15px;
-        font-family: 'Permanent Marker', sans-serif;
-    }
-    
-    #imgSelf{
-        position:absolute;
-        top: 12%;
-        max-width: 20%;
-        padding-left: 5%;
-        float: left;
-        border-radius: 90%;
-    }
-    
-    .borderline {
-        position:absolute;
-        padding-top: 25%;
-        padding-left: 25%;
-        padding-right: 25%;
-        font-size: 150%;
-        font-family: 'IBM Plex Sans', sans-serif;
     }
 
-    .borderline:before,
-    .borderline:after {
-        content: "";
-        height: 5px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(147, 147, 147, 1) 50%, rgba(0, 0, 0, 0) 100%);
-        display: block;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        padding-left: 10%;
+    #imgGit {
+        position: absolute;
+        left: 20%;
+        top: 49%;
+        max-width: 75px;
+        min-width: 75px;
     }
-    
+
+    #imgLinkedIn {
+        position: absolute;
+        left: 45%;
+        top: 50%;
+        max-width: 50px;
+        min-width: 50px;
+    }
+
+    #imgMail {
+        position: absolute;
+        left: 70%;
+        top: 51%;
+        max-width: 50px;
+        min-width: 50px;
+    }
+
+    #namelbl{
+        font-size:0px;
+    }
+
     /* Add a black background color to the top navigation */
     .topnav {
         background-color: transparent;
         overflow: hidden;
-        
+
     }
 
     /* Style the links inside the navigation bar */
@@ -72,57 +69,48 @@
         border: 2px solid black;
         border-radius: 5px;
     }
-    
+
 }
 
 @media(min-width:800px) {
     #typing {
-        position: static;
-        padding-right: 15%;
-        float:right;
+        position: absolute;
+        left: 25%;
+        top: 30%;
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 30px;
-        font-size: 3vw;
-    }
-    
-    #imgSelf{
-        position:static;
-        top: 17%;
-        max-width: 20%;
-        padding-left: 17%;
-        float: left;
-        border-radius: 90%;
-    }
-    
-    .borderline {
-        position:static;
-        float:left;
-        top: 60%;
-        width: 60%;
-        padding-left: 25%;
-        padding-bottom: 5%;
-        font-size: 1.75vw;
-        font-family: 'IBM Plex Sans', sans-serif;
     }
 
-    .borderline:before,
-    .borderline:after {
-        content: "";
-        height: 5px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(147, 147, 147, 1) 50%, rgba(0, 0, 0, 0) 100%);
-        display: block;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        padding-left: 10%;
-        padding-right: 10%;
+    #imgGit {
+        position: absolute;
+        left: 30px;
+        top: 25%;
+        max-width: 100px;
+        min-width: 75px;
     }
-    
-    #driven{
-        font-size: 20px;
-        font-size: 2vw;
-        font-family: 'Permanent Marker', sans-serif;
+
+    #imgLinkedIn {
+        position: absolute;
+        left: 45px;
+        top: 40%;
+        max-width: 65px;
+        min-width: 65px;
     }
-    
+
+    #imgMail{
+        position: absolute;
+        left: 45px;
+        top: 55%;
+        max-width: 65px;
+        min-width: 65px;
+    }
+
+    #namelbl{
+        font-family:'Varela Round';
+        font-size: 30px;
+        padding: 14px 16px;
+    }
+
     /* Add a black background color to the top navigation */
     .topnav {
         background-color: transparent;
