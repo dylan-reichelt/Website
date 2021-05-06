@@ -11,11 +11,15 @@ h1 {
 h2 {
   color: #a7d0cd;
   font-family: 'Alata', sans-serif;
+  font-size: 4em;
   letter-spacing: .07em;
 }
 
 h3 {
   color: #ffe9d6;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 2.5em;
+  margin: 20px 0 0 0;
 }
 
 .intro-section {
@@ -74,14 +78,49 @@ h3 {
 .experience-row {
   margin-left: 0;
   margin-right: 0;
-  padding: 20px;
 }
 
 .work-logo {
-  float: left;
+  border-radius: 50%;
+  display: block;
+  height: 15vh;
+  margin: 75px auto 0 auto;
+  min-width: 2.5em;
+  width: 12.5em;
+  height: 12.5em;
 }
 
 .work-info {
-  float: left;
-  margin-left: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.job-title {
+  color: #faf3f3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  margin: 0 0 5px 0;
+}
+
+.job-dates {
+  color: #faf3f3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  margin: 0;
+}
+
+.job-description {
+  color: #faf3f3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.15em;
+  margin: 20px 0 75px 0;
+}
+
+.work-spacer {
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: .625em dotted #a7d0cd;
+  width: 10%;
 }
