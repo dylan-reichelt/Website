@@ -1,0 +1,158 @@
+body {
+  background-color: #7b6079;
+  margin: 0;
+}
+
+h1 {
+  color: #a7d0cd;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2 {
+  color: #a7d0cd;
+  font-family: 'Alata', sans-serif;
+  font-size: 4em;
+  letter-spacing: .07em;
+}
+
+h3 {
+  color: #ffe9d6;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 2.5em;
+  margin: 20px 0 0 0;
+}
+
+.intro-section {
+  background-attachment: fixed;
+  background-color: transparent;
+  background-image: url(images/self.JPG);
+  background-position: 60% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  min-height: 0;
+  text-align: left;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.intro-text {
+  padding-left:20%;
+  padding-top: 30vh;
+}
+
+.software-sentence-section {
+  font-size: .5em;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.name-section {
+  font-size: 50px;
+}
+
+.intro-header-text {
+  display: inline;
+  margin: 0 0 0 5px;
+}
+
+.cursor {
+  color: #ffe9d6;
+  display: inline;
+}
+
+.typer-style {
+  display: inline;
+  font-size: 100px;
+}
+
+.experience-section {
+  text-align: left;
+}
+
+.experience-section h2 {
+  text-align: center;
+}
+
+.experience-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.work-logo {
+  border-radius: 50%;
+  display: block;
+  height: 15vh;
+  margin: 75px auto 0 auto;
+  min-width: 2.5em;
+  width: 12.5em;
+  height: 12.5em;
+}
+
+.work-info {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.job-title {
+  color: #faf3f3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  margin: 0 0 5px 0;
+}
+
+.job-dates {
+  color: #faf3f3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  margin: 0;
+}
+
+.job-description {
+  color: #faf3f3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.15em;
+  margin: 20px 0 0 0;
+}
+
+.work-spacer {
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: .625em dotted #a7d0cd;
+  margin: 75px auto 0 auto;
+  width: 10%;
+}
+
+.connect-header {
+  color: #7b6079;
+  padding-top: 50px;
+}
+
+.connect-section {
+  background-color: #ffe9d6;
+}
+
+.link-section {
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin {
+  margin: 2% 5% 5% 0;
+  text-align: center;
+}
+
+.linkedin img {
+  height: 5vw;
+}
+
+.github {
+  text-align: center;
+}
+
+.github img {
+  height: 5vw;
+}
