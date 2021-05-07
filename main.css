@@ -114,7 +114,7 @@ h3 {
   color: #faf3f3;
   font-family: 'Roboto', sans-serif;
   font-size: 1.15em;
-  margin: 20px 0 75px 0;
+  margin: 20px 0 0 0;
 }
 
 .work-spacer {
@@ -122,5 +122,37 @@ h3 {
   border-left: 0;
   border-right: 0;
   border-top: .625em dotted #a7d0cd;
+  margin: 75px auto 0 auto;
   width: 10%;
+}
+
+.connect-header {
+  color: #7b6079;
+  padding-top: 50px;
+}
+
+.connect-section {
+  background-color: #ffe9d6;
+}
+
+.link-section {
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin {
+  margin: 2% 5% 5% 0;
+  text-align: center;
+}
+
+.linkedin img {
+  height: 5vw;
+}
+
+.github {
+  text-align: center;
+}
+
+.github img {
+  height: 5vw;
 }
