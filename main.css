@@ -187,4 +187,12 @@ h3 {
 
 .project-section h2 {
   font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.card {
+  background-color: #ffe9d6;
+  border: 0px;
+  margin: 25px auto;
+  float: none;
 }
