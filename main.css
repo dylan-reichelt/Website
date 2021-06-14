@@ -29,6 +29,7 @@ h3 {
   background-position: 60% 60%;
   background-repeat: no-repeat;
   background-size: cover;
+  font-weight: bolder;
   height: 100vh;
   margin: 0;
   max-height: 100%;
@@ -39,22 +40,30 @@ h3 {
 }
 
 .intro-text {
-  padding-left:20%;
+  padding-left: 20%;
   padding-top: 30vh;
 }
 
+.hello-section {
+  font-size: 2em;
+}
+
 .software-sentence-section {
-  font-size: .5em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.25em;
   font-style: italic;
+  font-weight: 500;
   margin-top: 20px;
 }
 
 .name-section {
-  font-size: 50px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 90px;
 }
 
 .intro-header-text {
   display: inline;
+  font-family: 'IBM Plex Sans', sans-serif;
   margin: 0 0 0 5px;
 }
 
@@ -69,11 +78,18 @@ h3 {
 }
 
 .experience-section {
+  margin-bottom: 50px;
+  margin-top: 50px;
   text-align: left;
 }
 
 .experience-section h2 {
+  font-weight: bolder;
   text-align: center;
+}
+
+.experience-section h3 {
+  font-weight: bolder;
 }
 
 .experience-row {
@@ -119,27 +135,33 @@ h3 {
 }
 
 .work-spacer {
+  background-color: #7b6079;
   border-bottom: 0;
   border-left: 0;
   border-right: 0;
   border-top: .625em dotted #a7d0cd;
   margin: 75px auto 0 auto;
+  opacity: 1;
   width: 10%;
 }
 
 .connect-header {
   color: #7b6079;
+  font-weight: bolder;
   padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 .connect-section {
   background-color: #ffe9d6;
+  margin-top: 50px;
   text-align: center;
 }
 
 .link-section {
   display: flex;
   justify-content: center;
+  padding-bottom: 25px;
 }
 
 .linkedin {
@@ -157,4 +179,20 @@ h3 {
 
 .github img {
   height: 5vw;
+}
+
+.project-section {
+  text-align: center;
+}
+
+.project-section h2 {
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.card {
+  background-color: #ffe9d6;
+  border: 0px;
+  margin: 25px auto;
+  float: none;
 }
