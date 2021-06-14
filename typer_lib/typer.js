@@ -37,7 +37,6 @@ Typer.prototype.doTyping = function() {
   var atWordEnd;
   var min = parseInt(this.delay.split("-")[0]);
   var max = parseInt(this.delay.split("-")[1]);
-  console.log("HERE" + min);
   if (this.cursor) {
     this.cursor.element.style.opacity = "1";
     this.cursor.on = true;
